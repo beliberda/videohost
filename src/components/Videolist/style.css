@@ -4,27 +4,33 @@ li {
 }
 
 .content {
-  padding: 0 60px;
   font-family: "Roboto";
   font-style: normal;
 }
 
 
 .main__video-list {
-    margin-top: 40px;
+  margin-top: 40px;
   display: flex;
-  flex-wrap: wrap;
-  column-gap: 20px;
+  flex-direction: column;
   row-gap: 40px;
-  padding: 0;
+  padding-top: 40px;
+  background: linear-gradient(90deg, #FDFBFB 0%, #EBEDEE 100%);
+}
+.video-list__row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 .video-list__video-item {
-    width: 315px;
+  max-width: 435px;
+  width: 21.87%;
+  min-width: 315px;
   border-radius: 4px;
 }
 .video-item__image {
-  width: 315px;
-  height: 200px;
+  max-width: 435px;
+  max-height: 280px;
 }
 .video-item__info-block {
     margin-top: 16px;
