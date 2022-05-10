@@ -1,7 +1,3 @@
-ul,
-li {
-  list-style: none;
-}
 
 .content {
   padding: 0 60px;
@@ -15,6 +11,7 @@ li {
   display: flex;
   flex-direction: column;
   gap: 21px;
+  margin-top: 20px;
 }
 .header__top {
   display: flex;
