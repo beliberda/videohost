@@ -14,15 +14,13 @@
 }
 .video-list__video-item {
   max-width: 435px;
-  width: 21.87%;
+  width: 100%;
   min-width: 315px;
   border-radius: 4px;
 }
 .video-item__image {
   height: auto;
   width: 100%;
-  /* еще больше контроля с max-width */
-  max-width: 720px;
 }
 .video-item__info-block {
     margin-top: 16px;
