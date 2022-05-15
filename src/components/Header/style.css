@@ -11,8 +11,11 @@
   display: flex;
   flex-direction: column;
   gap: 21px;
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
+
+
 .header__top {
   display: flex;
   justify-content: space-between;
@@ -42,7 +45,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-
+  background: none;
   border: none;
   width: 100%;
   height: 100%;
@@ -92,7 +95,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background:none;
   gap: 5px;
   border: 1px solid #3a86ff;
   box-sizing: border-box;
@@ -123,6 +126,7 @@ h2 {
   line-height: 18px;
   color: #222222;
 }
+
 .foot__selector {
   display: flex;
   gap: 8px;
@@ -131,12 +135,13 @@ h2 {
 .selector__title {
 }
 .selector__select-button {
+  background: none;
   padding: 6px 12px;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   color: #3a86ff;
-  background-color: white;
+  /* background-color: white; */
   height: 30px;
   border: 1px solid #3a86ff;
   box-sizing: border-box;
@@ -145,4 +150,11 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 7px;
+}
+
+.header-dark {
+  background: rgba(34, 34, 34, 0.9);
+}
+.text-dark {
+  color: #ffffff !important;
 }

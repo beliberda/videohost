@@ -4,6 +4,7 @@ import Header from "../Header";
 import RecomendList from "../RecomendList";
 import MyButton from "../UI/Button";
 import Play from "../../assets/playBtn.svg";
+import Calendar from "../Calendar";
 import "./style.css";
 
 function Main() {
@@ -11,8 +12,6 @@ function Main() {
     <main>
       <Header/>
       <Videolist/>
-      <RecomendList/>
-    <MyButton className="AuthorizeBtn"><img src={Play} alt="" /> Authorize</MyButton>
     </main>
   );
 }
